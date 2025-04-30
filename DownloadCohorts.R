@@ -22,53 +22,43 @@ baseUrl <- "https://atlas-demo.ohdsi.org/WebAPI"
 cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
   baseUrl = baseUrl,
   cohortIds = c(
-    1778211, # All exposures - celecoxib
-    1790989, # All exposures - diclofenac
-    1780946 # GI Bleed
+    1791901, #T1  
+    1791902, #T2
+    1792899, #T3
+    1792900, #T4
+
+    1792116,
+    1792117,
+    1792115,
+    1792055,
+    1792057,
+    1792051,
+    1792053,
+    1792034,
+    1792035,
+    1792033,
+    1792032,
+    1791905,
+    1791906,
+    1791904,
+    1791908,
+    1791909,
+    1791907,
+    1791910,
+    1792031,
+    1791903  #drug cohorts
   ),
   generateStats = TRUE
 )
 
-# Rename cohorts
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 1778211,]$cohortName <- "celecoxib"
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 1790989,]$cohortName <- "diclofenac"
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 1780946,]$cohortName <- "GI Bleed"
-
 # Re-number cohorts
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 1778211,]$cohortId <- 1
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 1790989,]$cohortId <- 2
-cohortDefinitionSet[cohortDefinitionSet$cohortId == 1780946,]$cohortId <- 3
+cohortDefinitionSet$cohortId <- seq_len(nrow(cohortDefinitionSet))
+
 
 # Save the cohort definition set
-# NOTE: Update settingsFileName, jsonFolder and sqlFolder
-# for your study.
 CohortGenerator::saveCohortDefinitionSet(
   cohortDefinitionSet = cohortDefinitionSet,
-  settingsFileName = "inst/sampleStudy/Cohorts.csv",
-  jsonFolder = "inst/sampleStudy/cohorts",
-  sqlFolder = "inst/sampleStudy/sql/sql_server",
-)
-
-
-# Download and save the negative control outcomes
-negativeControlOutcomeCohortSet <- ROhdsiWebApi::getConceptSetDefinition(
-  conceptSetId = 1885090,
-  baseUrl = baseUrl
-) %>%
-  ROhdsiWebApi::resolveConceptSet(
-    baseUrl = baseUrl
-  ) %>%
-  ROhdsiWebApi::getConcepts(
-    baseUrl = baseUrl
-  ) %>%
-  rename(outcomeConceptId = "conceptId",
-         cohortName = "conceptName") %>%
-  mutate(cohortId = row_number() + 100) %>%
-  select(cohortId, cohortName, outcomeConceptId)
-
-# NOTE: Update file location for your study.
-CohortGenerator::writeCsv(
-  x = negativeControlOutcomeCohortSet,
-  file = "inst/sampleStudy/negativeControlOutcomes.csv",
-  warnOnFileNameCaseMismatch = F
+  settingsFileName = "inst/Cohorts.csv",
+  jsonFolder = "inst/cohorts",
+  sqlFolder = "inst/sql/sql_server",
 )

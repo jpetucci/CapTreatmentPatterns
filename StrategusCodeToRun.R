@@ -34,20 +34,13 @@ cohortTableName <- "sample_study"
 #   password = Sys.getenv("DBMS_PASSWORD")
 # )
 
-# For this example we will use the Eunomia sample data 
-# set. This library is not installed by default so you
-# can install this by running:
-#
-# install.packages("Eunomia")
-connectionDetails <- Eunomia::getEunomiaConnectionDetails()
-
 # You can use this snippet to test your connection
 #conn <- DatabaseConnector::connect(connectionDetails)
 #DatabaseConnector::disconnect(conn)
 
 ##=========== END OF INPUTS ==========
 analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
-  fileName = "inst/sampleStudy/sampleStudyAnalysisSpecification.json"
+  fileName = "inst/CAPAnalysisSpecification.json"
 )
 
 executionSettings <- Strategus::createCdmExecutionSettings(
