@@ -24,9 +24,7 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
   cohortIds = c(
     1791901, #T1  
     1791902, #T2
-    1792899, #T3
-    1792900, #T4
-
+# drug cohorts
     1792116,
     1792117,
     1792115,

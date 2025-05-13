@@ -20,69 +20,18 @@
 	"ConceptSets" : [
 		{
 			"id" : 1,
-			"name" : "oral marcolides\n",
+			"name" : "oral tetracyclines\n",
 			"expression" : {
 				"items" : [
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40986881,
-							"CONCEPT_NAME" : "Amoxicillin / Clarithromycin / pantoprazole Oral Tablet",
+							"CONCEPT_ID" : 40008354,
+							"CONCEPT_NAME" : "ambroxol / doxycycline Extended Release Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP2184843",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43174332,
-							"CONCEPT_NAME" : "Azithromycin Delayed Release Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP503881",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43207090,
-							"CONCEPT_NAME" : "Azithromycin Disintegrating Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP503904",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40013064,
-							"CONCEPT_NAME" : "azithromycin Oral Capsule",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "370974",
+							"CONCEPT_CODE" : "440819",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -93,47 +42,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 44056271,
-							"CONCEPT_NAME" : "Azithromycin Oral Granules",
+							"CONCEPT_ID" : 40008355,
+							"CONCEPT_NAME" : "ambroxol / doxycycline Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP1050902",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 44081986,
-							"CONCEPT_NAME" : "Azithromycin Oral Powder",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP1076617",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40013066,
-							"CONCEPT_NAME" : "azithromycin Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "370975",
+							"CONCEPT_CODE" : "439227",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -144,13 +59,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40013068,
-							"CONCEPT_NAME" : "azithromycin Oral Tablet",
+							"CONCEPT_ID" : 40025468,
+							"CONCEPT_NAME" : "demeclocycline Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "370976",
+							"CONCEPT_CODE" : "371700",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -161,13 +76,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40221345,
-							"CONCEPT_NAME" : "azithromycin Powder for Oral Suspension",
+							"CONCEPT_ID" : 40025469,
+							"CONCEPT_NAME" : "demeclocycline Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1807494",
+							"CONCEPT_CODE" : "371701",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -178,47 +93,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 36274593,
-							"CONCEPT_NAME" : "Clarithromycin Delayed Release Oral Capsule",
+							"CONCEPT_ID" : 40032664,
+							"CONCEPT_NAME" : "doxycycline Delayed Release Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP3125468",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 36883696,
-							"CONCEPT_NAME" : "Clarithromycin Delayed Release Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP995114",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40029794,
-							"CONCEPT_NAME" : "clarithromycin Extended Release Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371541",
+							"CONCEPT_CODE" : "378209",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -229,30 +110,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 42482064,
-							"CONCEPT_NAME" : "Clarithromycin Oral Solution",
+							"CONCEPT_ID" : 40032666,
+							"CONCEPT_NAME" : "doxycycline Delayed Release Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP419155",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40029800,
-							"CONCEPT_NAME" : "clarithromycin Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371539",
+							"CONCEPT_CODE" : "439221",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -263,13 +127,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40029802,
-							"CONCEPT_NAME" : "clarithromycin Oral Tablet",
+							"CONCEPT_ID" : 40127804,
+							"CONCEPT_NAME" : "doxycycline Disintegrating Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371540",
+							"CONCEPT_CODE" : "597519",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -280,30 +144,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 35137372,
-							"CONCEPT_NAME" : "Clarithromycin Powder for Oral Suspension",
+							"CONCEPT_ID" : 40125871,
+							"CONCEPT_NAME" : "doxycycline Extended Release Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4794548",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40040885,
-							"CONCEPT_NAME" : "erythromycin Delayed Release Oral Capsule",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372070",
+							"CONCEPT_CODE" : "578681",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -314,13 +161,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40040890,
-							"CONCEPT_NAME" : "erythromycin Delayed Release Oral Tablet",
+							"CONCEPT_ID" : 40032671,
+							"CONCEPT_NAME" : "doxycycline Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372060",
+							"CONCEPT_CODE" : "371965",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -331,13 +178,30 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40041242,
-							"CONCEPT_NAME" : "erythromycin Oral Capsule",
+							"CONCEPT_ID" : 42482754,
+							"CONCEPT_NAME" : "Doxycycline Oral Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372059",
+							"CONCEPT_CODE" : "OMOP419748",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40032682,
+							"CONCEPT_NAME" : "doxycycline Oral Suspension",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "371964",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -348,30 +212,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 44055925,
-							"CONCEPT_NAME" : "Erythromycin Oral Powder",
+							"CONCEPT_ID" : 40032939,
+							"CONCEPT_NAME" : "doxycycline Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP1050556",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40112580,
-							"CONCEPT_NAME" : "erythromycin Oral Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "562280",
+							"CONCEPT_CODE" : "371966",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -382,13 +229,30 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40041244,
-							"CONCEPT_NAME" : "erythromycin Oral Suspension",
+							"CONCEPT_ID" : 35151073,
+							"CONCEPT_NAME" : "epidihydrocholesterin / Tetracycline Oral Ointment",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372062",
+							"CONCEPT_CODE" : "OMOP4808121",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40001081,
+							"CONCEPT_NAME" : "lymecycline Oral Capsule",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "372657",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -399,13 +263,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40041258,
-							"CONCEPT_NAME" : "erythromycin Oral Tablet",
+							"CONCEPT_ID" : 40065092,
+							"CONCEPT_NAME" : "minocycline Extended Release Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372064",
+							"CONCEPT_CODE" : "384629",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -416,30 +280,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 35130759,
-							"CONCEPT_NAME" : "Erythromycin Powder for Oral Suspension",
+							"CONCEPT_ID" : 40132888,
+							"CONCEPT_NAME" : "minocycline Extended Release Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4788007",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40040111,
-							"CONCEPT_NAME" : "erythromycin / sulfisoxazole Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372058",
+							"CONCEPT_CODE" : "630818",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -450,132 +297,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 43174216,
-							"CONCEPT_NAME" : "Josamycin Delayed Release Oral Tablet",
+							"CONCEPT_ID" : 40065416,
+							"CONCEPT_NAME" : "minocycline Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP502876",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43141009,
-							"CONCEPT_NAME" : "Josamycin Granules for Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP502880",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 41173944,
-							"CONCEPT_NAME" : "Josamycin Oral Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP2371906",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43146357,
-							"CONCEPT_NAME" : "Metronidazole / Spiramycin Delayed Release Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP452787",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 35137053,
-							"CONCEPT_NAME" : "rokitamycin Powder for Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4794229",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43161139,
-							"CONCEPT_NAME" : "Roxithromycin Delayed Release Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP484509",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43262884,
-							"CONCEPT_NAME" : "Roxithromycin Disintegrating Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP548064",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40080750,
-							"CONCEPT_NAME" : "roxithromycin Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "373804",
+							"CONCEPT_CODE" : "372933",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -586,13 +314,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 42954957,
-							"CONCEPT_NAME" : "Roxithromycin Tablet for Oral Suspension",
+							"CONCEPT_ID" : 35161327,
+							"CONCEPT_NAME" : "Minocycline Oral Granules",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4681502",
+							"CONCEPT_CODE" : "OMOP4818300",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -603,13 +331,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 43141174,
-							"CONCEPT_NAME" : "Spiramycin Delayed Release Oral Tablet",
+							"CONCEPT_ID" : 35156943,
+							"CONCEPT_NAME" : "Minocycline Oral Ointment",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP504438",
+							"CONCEPT_CODE" : "OMOP4813950",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -620,13 +348,166 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40102223,
-							"CONCEPT_NAME" : "telithromycin Oral Tablet",
+							"CONCEPT_ID" : 40065423,
+							"CONCEPT_NAME" : "minocycline Oral Powder",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "393333",
+							"CONCEPT_CODE" : "378771",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40065427,
+							"CONCEPT_NAME" : "minocycline Oral Tablet",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "372936",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40057805,
+							"CONCEPT_NAME" : "myrtol / oxytetracycline Oral Capsule",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "447117",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 35200957,
+							"CONCEPT_NAME" : "omadacycline Oral Tablet",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "2059273",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40067401,
+							"CONCEPT_NAME" : "oxytetracycline Oral Tablet",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "373209",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 35200885,
+							"CONCEPT_NAME" : "sarecycline Oral Tablet",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "2059022",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40087792,
+							"CONCEPT_NAME" : "tetracycline Oral Capsule",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "374061",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 35139213,
+							"CONCEPT_NAME" : "Tetracycline Oral Lozenge",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP4796371",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40087807,
+							"CONCEPT_NAME" : "tetracycline Oral Suspension",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "374420",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40087810,
+							"CONCEPT_NAME" : "tetracycline Oral Tablet",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "374062",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"

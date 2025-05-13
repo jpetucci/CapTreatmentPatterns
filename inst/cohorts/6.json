@@ -20,18 +20,18 @@
 	"ConceptSets" : [
 		{
 			"id" : 0,
-			"name" : "injectable corticosteroids",
+			"name" : "3rd generation",
 			"expression" : {
 				"items" : [
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40018865,
-							"CONCEPT_NAME" : "betamethasone Injectable Solution",
+							"CONCEPT_ID" : 35603136,
+							"CONCEPT_NAME" : "avibactam / ceftazidime Injection",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371049",
+							"CONCEPT_CODE" : "1718938",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -42,47 +42,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40027151,
-							"CONCEPT_NAME" : "dexamethasone / lidocaine Injectable Solution",
+							"CONCEPT_ID" : 35157046,
+							"CONCEPT_NAME" : "Cefoperazone Injection",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371724",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 42901434,
-							"CONCEPT_NAME" : "lidocaine / methylprednisolone Injectable Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1358497",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 42482154,
-							"CONCEPT_NAME" : "prednisolone Prefilled Syringe",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP420227",
+							"CONCEPT_CODE" : "OMOP4814053",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -93,13 +59,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 36894466,
-							"CONCEPT_NAME" : "Triamcinolone Injectable Solution",
+							"CONCEPT_ID" : 2048468,
+							"CONCEPT_NAME" : "cefoperazone / sodium chloride / sulbactam Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP998556",
+							"CONCEPT_CODE" : "OMOP4948804",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -110,81 +76,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40085179,
-							"CONCEPT_NAME" : "triamcinolone Injectable Suspension",
+							"CONCEPT_ID" : 35136564,
+							"CONCEPT_NAME" : "Cefoperazone / Sulbactam Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "96818",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40141448,
-							"CONCEPT_NAME" : "triamcinolone Prefilled Syringe",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "727885",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40018167,
-							"CONCEPT_NAME" : "betamethasone / diphenylpyraline Injectable Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "452179",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40019090,
-							"CONCEPT_NAME" : "betamethasone Injectable Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "378340",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 42479030,
-							"CONCEPT_NAME" : "Betamethasone Prefilled Syringe",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP418946",
+							"CONCEPT_CODE" : "OMOP4793741",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -195,132 +93,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40028260,
-							"CONCEPT_NAME" : "dexamethasone Injectable Solution",
+							"CONCEPT_ID" : 42944083,
+							"CONCEPT_NAME" : "Cefoperazone / Sulbactam Injection",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371725",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40028569,
-							"CONCEPT_NAME" : "dexamethasone Injectable Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371721",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 1719021,
-							"CONCEPT_NAME" : "dexamethasone Prefilled Syringe",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1812094",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40049686,
-							"CONCEPT_NAME" : "hydrocortisone Injectable Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "370648",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40049691,
-							"CONCEPT_NAME" : "hydrocortisone Injectable Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "378635",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40060701,
-							"CONCEPT_NAME" : "methylprednisolone Injectable Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "376656",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40060705,
-							"CONCEPT_NAME" : "methylprednisolone Injectable Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372866",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 42479078,
-							"CONCEPT_NAME" : "Methylprednisolone Prefilled Syringe",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP419845",
+							"CONCEPT_CODE" : "OMOP4670707",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -331,13 +110,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40073191,
-							"CONCEPT_NAME" : "prednisolone Injectable Solution",
+							"CONCEPT_ID" : 40024722,
+							"CONCEPT_NAME" : "cefotaxime Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "373579",
+							"CONCEPT_CODE" : "371331",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -348,13 +127,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40073197,
-							"CONCEPT_NAME" : "prednisolone Injectable Suspension",
+							"CONCEPT_ID" : 46275705,
+							"CONCEPT_NAME" : "cefotaxime Injection",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "373568",
+							"CONCEPT_CODE" : "1656312",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -365,13 +144,115 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 41017247,
-							"CONCEPT_NAME" : "Salicylic Acid / Triamcinolone Injectable Solution",
+							"CONCEPT_ID" : 40025074,
+							"CONCEPT_NAME" : "ceftazidime Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP2215209",
+							"CONCEPT_CODE" : "371337",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 46275510,
+							"CONCEPT_NAME" : "ceftazidime Injection",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1659277",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40020647,
+							"CONCEPT_NAME" : "ceftriaxone Injectable Solution",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "376593",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 43589311,
+							"CONCEPT_NAME" : "Ceftriaxone Injectable Suspension",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP900898",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 46287316,
+							"CONCEPT_NAME" : "ceftriaxone Injection",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1664992",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 36784719,
+							"CONCEPT_NAME" : "Ceftriaxone Intravenous Solution",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP4773003",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 2048071,
+							"CONCEPT_NAME" : "ceftriaxone / sodium chloride Injectable Solution",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP4948402",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"

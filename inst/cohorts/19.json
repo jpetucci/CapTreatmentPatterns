@@ -20,21 +20,21 @@
 	"ConceptSets" : [
 		{
 			"id" : 0,
-			"name" : "oral lincosamides",
+			"name" : "carpanenems",
 			"expression" : {
 				"items" : [
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40030606,
-							"CONCEPT_NAME" : "clindamycin Oral Capsule",
+							"CONCEPT_ID" : 35198093,
+							"CONCEPT_NAME" : "biapenem",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371555",
+							"CONCEPT_CODE" : "OMOP4819458",
 							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Ingredient"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,
@@ -42,16 +42,16 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40108857,
-							"CONCEPT_NAME" : "clindamycin Oral Solution",
+							"CONCEPT_ID" : 1713905,
+							"CONCEPT_NAME" : "doripenem",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "562265",
+							"CONCEPT_CODE" : "119771",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+							"CONCEPT_CLASS_ID" : "Ingredient"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,
@@ -59,16 +59,16 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40030608,
-							"CONCEPT_NAME" : "clindamycin Oral Suspension",
+							"CONCEPT_ID" : 1717963,
+							"CONCEPT_NAME" : "ertapenem",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371556",
+							"CONCEPT_CODE" : "325642",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+							"CONCEPT_CLASS_ID" : "Ingredient"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,
@@ -76,16 +76,67 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40030883,
-							"CONCEPT_NAME" : "clindamycin Oral Tablet",
+							"CONCEPT_ID" : 1778262,
+							"CONCEPT_NAME" : "imipenem",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "438689",
+							"CONCEPT_CODE" : "5690",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+							"CONCEPT_CLASS_ID" : "Ingredient"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 1709170,
+							"CONCEPT_NAME" : "meropenem",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "29561",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Ingredient"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 35197853,
+							"CONCEPT_NAME" : "panipenem",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP4819218",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Ingredient"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 35198145,
+							"CONCEPT_NAME" : "tebipenem pivoxil",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP4819510",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Ingredient"
 						},
 						"isExcluded" : false,
 						"includeDescendants" : true,

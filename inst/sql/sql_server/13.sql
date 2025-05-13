@@ -5,13 +5,13 @@ CREATE TABLE #Codesets (
 ;
 
 INSERT INTO #Codesets (codeset_id, concept_id)
-SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 1 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (42480682,40009469,35159381,40009799,46287508,35605339,40009679,46275615,36892544,40029809,42481928,40063081,35605335,40071653,35606366,40072606,40072608,35603085,40141393,40077149,42973661,40077118,44055751,46275426,36789928,36882730,40087818)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (40032668,46233979,42482202,35200473,36880814,35605507,35200967,40067397,40087784,1355852,40892721,36883676)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (42480682,40009469,35159381,40009799,46287508,35605339,40009679,46275615,36892544,40029809,42481928,40063081,35605335,40071653,35606366,40072606,40072608,35603085,40141393,40077149,42973661,40077118,44055751,46275426,36789928,36882730,40087818)
+  and ca.ancestor_concept_id in (40032668,46233979,42482202,35200473,36880814,35605507,35200967,40067397,40087784,1355852,40892721,36883676)
   and c.invalid_reason is null
 
 ) I
@@ -41,7 +41,7 @@ from
 (
   select de.person_id,de.drug_exposure_id,de.drug_concept_id,de.visit_occurrence_id,days_supply,quantity,refills,de.drug_exposure_start_date as start_date, COALESCE(de.drug_exposure_end_date, DATEADD(day,de.days_supply,de.drug_exposure_start_date), DATEADD(day,1,de.drug_exposure_start_date)) as end_date 
   FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 0)
+JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 1)
 ) C
 
 
@@ -94,14 +94,14 @@ FROM (
 	select de.PERSON_ID, DRUG_EXPOSURE_START_DATE, COALESCE(DRUG_EXPOSURE_END_DATE, DATEADD(day,DAYS_SUPPLY,DRUG_EXPOSURE_START_DATE), DATEADD(day,1,DRUG_EXPOSURE_START_DATE)) as DRUG_EXPOSURE_END_DATE 
 	FROM @cdm_database_schema.DRUG_EXPOSURE de
 	JOIN ctePersons p on de.person_id = p.person_id
-	JOIN #Codesets cs on cs.codeset_id = 0 AND de.drug_concept_id = cs.concept_id
+	JOIN #Codesets cs on cs.codeset_id = 1 AND de.drug_concept_id = cs.concept_id
 
 	UNION ALL
 
 	select de.PERSON_ID, DRUG_EXPOSURE_START_DATE, COALESCE(DRUG_EXPOSURE_END_DATE, DATEADD(day,DAYS_SUPPLY,DRUG_EXPOSURE_START_DATE), DATEADD(day,1,DRUG_EXPOSURE_START_DATE)) as DRUG_EXPOSURE_END_DATE 
 	FROM @cdm_database_schema.DRUG_EXPOSURE de
 	JOIN ctePersons p on de.person_id = p.person_id
-	JOIN #Codesets cs on cs.codeset_id = 0 AND de.drug_source_concept_id = cs.concept_id
+	JOIN #Codesets cs on cs.codeset_id = 1 AND de.drug_source_concept_id = cs.concept_id
 ) E
 ;
 

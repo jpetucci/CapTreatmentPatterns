@@ -5,16 +5,27 @@ CREATE TABLE #Codesets (
 ;
 
 INSERT INTO #Codesets (codeset_id, concept_id)
-SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 9 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (40008548,35606018,40054719,40830631,35148283,1594373,1594391,42960750,40053577,42939510,40072289,40072708,1560050,35153422,42959447,40083994,40079411,35603858,36885646,40220486,40088725,35605484,42480797,43193060,42482475)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (1721543,35198003,1747032,19041153,1592954,1716721,923081,19050750,1712549,35197938,36878831,40161662,43009030,1743222,35834909,35198165,1789276,1797513,1742253,1716903,35197897,19027679,1733765,1707800)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (40008548,35606018,40054719,40830631,35148283,1594373,1594391,42960750,40053577,42939510,40072289,40072708,1560050,35153422,42959447,40083994,40079411,35603858,36885646,40220486,40088725,35605484,42480797,43193060,42482475)
+  and ca.ancestor_concept_id in (1721543,35198003,1747032,19041153,1592954,1716721,923081,19050750,1712549,35197938,36878831,40161662,43009030,1743222,35834909,35198165,1789276,1797513,1742253,1716903,35197897,19027679,1733765,1707800)
   and c.invalid_reason is null
 
 ) I
+LEFT JOIN
+(
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (42613186,2909524,40161667,40028718,40028720,35860696,35858962,40059607,35861002,40001157,40059318,40057467,40066892,40066893,43695029,40069651,35851732,42961482,42479725,40028359,42629035,43258666,40028361,40160496,35605255,35860990,35144130,40069655,42965658,36269500,35857832,35857838,35860698,35862078,35862084,2052955,43678347,35154779,35141912,35861725,35851383,35851392,35856292,36958160)
+UNION  select c.concept_id
+  from @vocabulary_database_schema.CONCEPT c
+  join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
+  and ca.ancestor_concept_id in (42613186,2909524,40161667,40028718,40028720,35860696,35858962,40059607,35861002,40001157,40059318,40057467,40066892,40066893,43695029,40069651,35851732,42961482,42479725,40028359,42629035,43258666,40028361,40160496,35605255,35860990,35144130,40069655,42965658,36269500,35857832,35857838,35860698,35862078,35862084,2052955,43678347,35154779,35141912,35861725,35851383,35851392,35856292,36958160)
+  and c.invalid_reason is null
+
+) E ON I.concept_id = E.concept_id
+WHERE E.concept_id is null
 ) C;
 
 UPDATE STATISTICS #Codesets;
@@ -41,7 +52,7 @@ from
 (
   select de.person_id,de.drug_exposure_id,de.drug_concept_id,de.visit_occurrence_id,days_supply,quantity,refills,de.drug_exposure_start_date as start_date, COALESCE(de.drug_exposure_end_date, DATEADD(day,de.days_supply,de.drug_exposure_start_date), DATEADD(day,1,de.drug_exposure_start_date)) as end_date 
   FROM @cdm_database_schema.DRUG_EXPOSURE de
-JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 0)
+JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 9)
 ) C
 
 
@@ -94,14 +105,14 @@ FROM (
 	select de.PERSON_ID, DRUG_EXPOSURE_START_DATE, COALESCE(DRUG_EXPOSURE_END_DATE, DATEADD(day,DAYS_SUPPLY,DRUG_EXPOSURE_START_DATE), DATEADD(day,1,DRUG_EXPOSURE_START_DATE)) as DRUG_EXPOSURE_END_DATE 
 	FROM @cdm_database_schema.DRUG_EXPOSURE de
 	JOIN ctePersons p on de.person_id = p.person_id
-	JOIN #Codesets cs on cs.codeset_id = 0 AND de.drug_concept_id = cs.concept_id
+	JOIN #Codesets cs on cs.codeset_id = 9 AND de.drug_concept_id = cs.concept_id
 
 	UNION ALL
 
 	select de.PERSON_ID, DRUG_EXPOSURE_START_DATE, COALESCE(DRUG_EXPOSURE_END_DATE, DATEADD(day,DAYS_SUPPLY,DRUG_EXPOSURE_START_DATE), DATEADD(day,1,DRUG_EXPOSURE_START_DATE)) as DRUG_EXPOSURE_END_DATE 
 	FROM @cdm_database_schema.DRUG_EXPOSURE de
 	JOIN ctePersons p on de.person_id = p.person_id
-	JOIN #Codesets cs on cs.codeset_id = 0 AND de.drug_source_concept_id = cs.concept_id
+	JOIN #Codesets cs on cs.codeset_id = 9 AND de.drug_source_concept_id = cs.concept_id
 ) E
 ;
 

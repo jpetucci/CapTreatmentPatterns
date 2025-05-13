@@ -20,18 +20,18 @@
 	"ConceptSets" : [
 		{
 			"id" : 0,
-			"name" : "3rd generation",
+			"name" : "2nd generation",
 			"expression" : {
 				"items" : [
 					{
 						"concept" : {
-							"CONCEPT_ID" : 35603136,
-							"CONCEPT_NAME" : "avibactam / ceftazidime Injection",
+							"CONCEPT_ID" : 40024424,
+							"CONCEPT_NAME" : "cefmetazole Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1718938",
+							"CONCEPT_CODE" : "376875",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -42,13 +42,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 35157046,
-							"CONCEPT_NAME" : "Cefoperazone Injection",
+							"CONCEPT_ID" : 42944003,
+							"CONCEPT_NAME" : "Cefmetazole Injection",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4814053",
+							"CONCEPT_CODE" : "OMOP4670630",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -59,64 +59,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 2048468,
-							"CONCEPT_NAME" : "cefoperazone / sodium chloride / sulbactam Injectable Solution",
+							"CONCEPT_ID" : 40024746,
+							"CONCEPT_NAME" : "cefotetan Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4948804",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 35136564,
-							"CONCEPT_NAME" : "Cefoperazone / Sulbactam Injectable Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4793741",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 42944083,
-							"CONCEPT_NAME" : "Cefoperazone / Sulbactam Injection",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4670707",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40024722,
-							"CONCEPT_NAME" : "cefotaxime Injectable Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371331",
+							"CONCEPT_CODE" : "376594",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -127,81 +76,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 46275705,
-							"CONCEPT_NAME" : "cefotaxime Injection",
+							"CONCEPT_ID" : 44081741,
+							"CONCEPT_NAME" : "Cefotetan Injectable Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1656312",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40025074,
-							"CONCEPT_NAME" : "ceftazidime Injectable Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371337",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 46275510,
-							"CONCEPT_NAME" : "ceftazidime Injection",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1659277",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40020647,
-							"CONCEPT_NAME" : "ceftriaxone Injectable Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "376593",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43589311,
-							"CONCEPT_NAME" : "Ceftriaxone Injectable Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP900898",
+							"CONCEPT_CODE" : "OMOP1076372",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -212,13 +93,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 46287316,
-							"CONCEPT_NAME" : "ceftriaxone Injection",
+							"CONCEPT_ID" : 35605995,
+							"CONCEPT_NAME" : "cefotetan Injection",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1664992",
+							"CONCEPT_CODE" : "1722918",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -229,13 +110,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 36784719,
-							"CONCEPT_NAME" : "Ceftriaxone Intravenous Solution",
+							"CONCEPT_ID" : 2048362,
+							"CONCEPT_NAME" : "cefotetan / sodium chloride Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4773003",
+							"CONCEPT_CODE" : "OMOP4948696",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -246,15 +127,100 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 2048071,
-							"CONCEPT_NAME" : "ceftriaxone / sodium chloride Injectable Solution",
+							"CONCEPT_ID" : 40024770,
+							"CONCEPT_NAME" : "cefoxitin Injectable Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4948402",
+							"CONCEPT_CODE" : "376592",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 44081740,
+							"CONCEPT_NAME" : "Cefoxitin Injectable Suspension",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP1076371",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 46287362,
+							"CONCEPT_NAME" : "cefoxitin Injection",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1665101",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 36892522,
+							"CONCEPT_NAME" : "Cefoxitin Prefilled Syringe",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "OMOP1003725",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40020950,
+							"CONCEPT_NAME" : "cefuroxime Injectable Solution",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "374541",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 46287413,
+							"CONCEPT_NAME" : "cefuroxime Injection",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "1665443",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
 						},
 						"isExcluded" : false,

@@ -20,52 +20,18 @@
 	"ConceptSets" : [
 		{
 			"id" : 0,
-			"name" : "macrolides injectable",
+			"name" : "oral lincosamides",
 			"expression" : {
 				"items" : [
 					{
 						"concept" : {
-							"CONCEPT_ID" : 36887565,
-							"CONCEPT_NAME" : "Azithromycin Injectable Solution",
+							"CONCEPT_ID" : 40030606,
+							"CONCEPT_NAME" : "clindamycin Oral Capsule",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP992482",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 44056272,
-							"CONCEPT_NAME" : "Azithromycin Injectable Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP1050903",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 35603388,
-							"CONCEPT_NAME" : "azithromycin Injection",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1668237",
+							"CONCEPT_CODE" : "371555",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -76,13 +42,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40041235,
-							"CONCEPT_NAME" : "erythromycin Injectable Solution",
+							"CONCEPT_ID" : 40108857,
+							"CONCEPT_NAME" : "clindamycin Oral Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "372068",
+							"CONCEPT_CODE" : "562265",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -93,13 +59,30 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 35603399,
-							"CONCEPT_NAME" : "erythromycin Injection",
+							"CONCEPT_ID" : 40030608,
+							"CONCEPT_NAME" : "clindamycin Oral Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "1668263",
+							"CONCEPT_CODE" : "371556",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40030883,
+							"CONCEPT_NAME" : "clindamycin Oral Tablet",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "438689",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"

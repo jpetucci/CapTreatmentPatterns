@@ -20,18 +20,35 @@
 	"ConceptSets" : [
 		{
 			"id" : 0,
-			"name" : "3rd generation",
+			"name" : "2nd generation",
 			"expression" : {
 				"items" : [
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40092162,
-							"CONCEPT_NAME" : "cefdinir Oral Capsule",
+							"CONCEPT_ID" : 44081739,
+							"CONCEPT_NAME" : "cefprozil Oral Powder",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371325",
+							"CONCEPT_CODE" : "OMOP1076370",
+							"DOMAIN_ID" : "Drug",
+							"VOCABULARY_ID" : "RxNorm Extension",
+							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
+						},
+						"isExcluded" : false,
+						"includeDescendants" : true,
+						"includeMapped" : false
+					},
+					{
+						"concept" : {
+							"CONCEPT_ID" : 40123627,
+							"CONCEPT_NAME" : "cefprozil Oral Solution",
+							"STANDARD_CONCEPT" : "S",
+							"STANDARD_CONCEPT_CAPTION" : "Standard",
+							"INVALID_REASON" : "V",
+							"INVALID_REASON_CAPTION" : "Valid",
+							"CONCEPT_CODE" : "562295",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -42,30 +59,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 42924604,
-							"CONCEPT_NAME" : "cefdinir Oral Granules",
+							"CONCEPT_ID" : 40092578,
+							"CONCEPT_NAME" : "cefprozil Oral Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4651440",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40092165,
-							"CONCEPT_NAME" : "cefdinir Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371326",
+							"CONCEPT_CODE" : "371335",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -76,64 +76,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 35145242,
-							"CONCEPT_NAME" : "cefdinir Oral Tablet",
+							"CONCEPT_ID" : 40092579,
+							"CONCEPT_NAME" : "cefprozil Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP4802332",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43147453,
-							"CONCEPT_NAME" : "Cefixime Delayed Release Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP461943",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 44160731,
-							"CONCEPT_NAME" : "Cefixime Disintegrating Oral Tablet",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP3037454",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40024406,
-							"CONCEPT_NAME" : "cefixime Oral Capsule",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "438392",
+							"CONCEPT_CODE" : "371336",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -144,13 +93,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 36887555,
-							"CONCEPT_NAME" : "Cefixime Oral Granules",
+							"CONCEPT_ID" : 43217392,
+							"CONCEPT_NAME" : "Cefuroxime Delayed Release Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP991169",
+							"CONCEPT_CODE" : "OMOP498084",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -161,13 +110,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 44107631,
-							"CONCEPT_NAME" : "Cefixime Oral Powder",
+							"CONCEPT_ID" : 36880851,
+							"CONCEPT_NAME" : "Cefuroxime Granules for Oral Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP1102262",
+							"CONCEPT_CODE" : "OMOP996563",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -178,30 +127,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 41267622,
-							"CONCEPT_NAME" : "Cefixime Oral Solution",
+							"CONCEPT_ID" : 40020949,
+							"CONCEPT_NAME" : "cefuroxime Oral Granules",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP2465584",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40024407,
-							"CONCEPT_NAME" : "cefixime Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371327",
+							"CONCEPT_CODE" : "371341",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -212,30 +144,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40024408,
-							"CONCEPT_NAME" : "cefixime Oral Tablet",
+							"CONCEPT_ID" : 44056029,
+							"CONCEPT_NAME" : "Cefuroxime Oral Powder",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371328",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43169499,
-							"CONCEPT_NAME" : "Cefixime Powder for Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP461960",
+							"CONCEPT_CODE" : "OMOP1050660",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -246,13 +161,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 43210819,
-							"CONCEPT_NAME" : "cefpodoxime Delayed Release Oral Tablet",
+							"CONCEPT_ID" : 41298608,
+							"CONCEPT_NAME" : "Cefuroxime Oral Solution",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP432147",
+							"CONCEPT_CODE" : "OMOP2496570",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -263,30 +178,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 43189006,
-							"CONCEPT_NAME" : "cefpodoxime Granules for Oral Suspension",
+							"CONCEPT_ID" : 40020955,
+							"CONCEPT_NAME" : "cefuroxime Oral Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP432330",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm Extension",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 40123619,
-							"CONCEPT_NAME" : "cefpodoxime Oral Solution",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "562651",
+							"CONCEPT_CODE" : "371340",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -297,13 +195,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40092559,
-							"CONCEPT_NAME" : "cefpodoxime Oral Suspension",
+							"CONCEPT_ID" : 40020957,
+							"CONCEPT_NAME" : "cefuroxime Oral Tablet",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371333",
+							"CONCEPT_CODE" : "371342",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
@@ -314,30 +212,13 @@
 					},
 					{
 						"concept" : {
-							"CONCEPT_ID" : 40092561,
-							"CONCEPT_NAME" : "cefpodoxime Oral Tablet",
+							"CONCEPT_ID" : 43195541,
+							"CONCEPT_NAME" : "Cefuroxime Powder for Oral Suspension",
 							"STANDARD_CONCEPT" : "S",
 							"STANDARD_CONCEPT_CAPTION" : "Standard",
 							"INVALID_REASON" : "V",
 							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "371334",
-							"DOMAIN_ID" : "Drug",
-							"VOCABULARY_ID" : "RxNorm",
-							"CONCEPT_CLASS_ID" : "Clinical Drug Form"
-						},
-						"isExcluded" : false,
-						"includeDescendants" : true,
-						"includeMapped" : false
-					},
-					{
-						"concept" : {
-							"CONCEPT_ID" : 43156082,
-							"CONCEPT_NAME" : "cefpodoxime Powder for Oral Suspension",
-							"STANDARD_CONCEPT" : "S",
-							"STANDARD_CONCEPT_CAPTION" : "Standard",
-							"INVALID_REASON" : "V",
-							"INVALID_REASON_CAPTION" : "Valid",
-							"CONCEPT_CODE" : "OMOP432374",
+							"CONCEPT_CODE" : "OMOP498109",
 							"DOMAIN_ID" : "Drug",
 							"VOCABULARY_ID" : "RxNorm Extension",
 							"CONCEPT_CLASS_ID" : "Clinical Drug Form"

@@ -17,7 +17,6 @@ library(dplyr)
 library(Strategus)
 
 # Time-at-risks (TARs) for the outcomes of interest in your study
-#XXXX
 timeAtRisks <- tibble(
   label = c("On treatment"),
   riskWindowStart  = c(1),
@@ -26,11 +25,10 @@ timeAtRisks <- tibble(
   endAnchor = c("cohort end")
 )
 
-
 # If you are not restricting your study to a specific time window, 
 # please make these strings empty
-studyStartDate <- '20100101' #YYYYMMDD
-studyEndDate <- ''   #YYYYMMDD
+studyStartDate <- '20100101' #start year
+studyEndDate <- ''   #present
 # Some of the settings require study dates with hyphens
 studyStartDateWithHyphens <- gsub("(\\d{4})(\\d{2})(\\d{2})", "\\1-\\2-\\3", studyStartDate)
 studyEndDateWithHyphens <- gsub("(\\d{4})(\\d{2})(\\d{2})", "\\1-\\2-\\3", studyEndDate)
@@ -55,9 +53,9 @@ if (any(duplicated(cohortDefinitionSet$cohortId))) {
 }
 
 # Create some data frames to hold the cohorts we'll use in each analysis ---------------
-# Outcomes: The outcome for this study is cohort_id == 3 
+# Outcomes: The outcome for this study is cohort_id >= 3 
 oList <- cohortDefinitionSet %>%
-  filter(.data$cohortId > 4) %>%
+  filter(.data$cohortId > 2) %>%
   mutate(outcomeCohortId = cohortId, outcomeCohortName = cohortName) %>%
   select(outcomeCohortId, outcomeCohortName) %>%
   mutate(cleanWindow = 0)
@@ -99,12 +97,12 @@ treatmentPatternsModuleSpecifications <- tModuleSettingsCreator$createModuleSpec
     cohorts,
     includeTreatments = "startDate",
     indexDateOffset = 0,
-    minEraDuration = 0,
+    minEraDuration = 1,
     splitEventCohorts = NULL,
     splitTime = NULL,
-    eraCollapseSize = 30,
+    eraCollapseSize = 7,
     combinationWindow = 1,
-    minPostCombinationDuration = 0,
+    minPostCombinationDuration = 1,
     filterTreatments = "All",
     maxPathLength = 5,
     ageWindow = 10,
@@ -119,7 +117,6 @@ analysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
   Strategus::addSharedResources(cohortDefinitionShared) |>
   Strategus::addModuleSpecifications(cohortGeneratorModuleSpecifications) |>
   Strategus::addModuleSpecifications(characterizationModuleSpecifications) |>
- # Strategus::addModuleSpecifications(cohortIncidenceModuleSpecifications) |>
   Strategus::addModuleSpecifications(treatmentPatternsModuleSpecifications) 
 
 

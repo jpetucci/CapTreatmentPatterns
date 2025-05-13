@@ -7,11 +7,11 @@ CREATE TABLE #Codesets (
 INSERT INTO #Codesets (codeset_id, concept_id)
 SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (35603136,35157046,2048468,35136564,42944083,40024722,46275705,40025074,46275510,40020647,43589311,46287316,36784719,2048071)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (40024424,42944003,40024746,44081741,35605995,2048362,40024770,44081740,46287362,36892522,40020950,46287413)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (35603136,35157046,2048468,35136564,42944083,40024722,46275705,40025074,46275510,40020647,43589311,46287316,36784719,2048071)
+  and ca.ancestor_concept_id in (40024424,42944003,40024746,44081741,35605995,2048362,40024770,44081740,46287362,36892522,40020950,46287413)
   and c.invalid_reason is null
 
 ) I

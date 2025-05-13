@@ -1,25 +1,23 @@
 atlas_id,cohort_id,cohort_name,logic_description,generate_stats
 1791901,1,[PP25 Community acquired pneumonia management] CAP first event,NA,TRUE
 1791902,2,[PP25 Community acquired pneumonia management] CAP-associated hospitalization first event,NA,TRUE
-1792899,3,[PP25 Community acquired pneumonia management] CAP all events,NA,TRUE
-1792900,4,[PP25 Community acquired pneumonia management] CAP-associated hospitalization all events,NA,TRUE
-1792116,5,[PP25 Community acquired pneumonia management] oral corticosteroids,NA,TRUE
-1792117,6,[PP25 Community acquired pneumonia management] injectable corticosteroids,NA,TRUE
-1792115,7,[PP25 Community acquired pneumonia management] 4_5-generation cephalosporins injectable,NA,TRUE
-1792055,8,[PP25 Community acquired pneumonia management] third-generation cephalosporins injectable,NA,TRUE
-1792057,9,[PP25 Community acquired pneumonia management] third-generation cephalosporins oral,NA,TRUE
-1792051,10,[PP25 Community acquired pneumonia management] second generation cephalosporins injectable,NA,TRUE
-1792053,11,[PP25 Community acquired pneumonia management] second generation cephalosporins oral,NA,TRUE
-1792034,12,[PP25 Community acquired pneumonia management] oral penicillins,NA,TRUE
-1792035,13,[PP25 Community acquired pneumonia management] injectable penicillins,NA,TRUE
-1792033,14,[PP25 Community acquired pneumonia management] oral macrolides,NA,TRUE
-1792032,15,[PP25 Community acquired pneumonia management] injectable tetracyclines,NA,TRUE
-1791905,16,[PP25 Community acquired pneumonia management] oral tetracyclines,NA,TRUE
-1791906,17,[PP25 Community acquired pneumonia management] injectable macrolides,NA,TRUE
-1791904,18,[PP25 Community acquired pneumonia management] systemic trimetoprim,NA,TRUE
-1791908,19,[PP25 Community acquired pneumonia management] oral lincosamides,NA,TRUE
-1791909,20,[PP25 Community acquired pneumonia management] injectable lincosamides,NA,TRUE
-1791907,21,[PP25 Community acquired pneumonia management] carpanenems,NA,TRUE
-1791910,22,[PP25 Community acquired pneumonia management] injectable aminoglycosides,NA,TRUE
-1792031,23,[PP25 Community acquired pneumonia management] oral aminoglycosides,NA,TRUE
-1791903,24,[PP25 Community acquired pneumonia management] systemic floroquinolones,NA,TRUE
+1792116,3,[PP25 Community acquired pneumonia management] oral corticosteroids,NA,TRUE
+1792117,4,[PP25 Community acquired pneumonia management] injectable corticosteroids,NA,TRUE
+1792115,5,[PP25 Community acquired pneumonia management] 4_5-generation cephalosporins injectable,NA,TRUE
+1792055,6,[PP25 Community acquired pneumonia management] third-generation cephalosporins injectable,NA,TRUE
+1792057,7,[PP25 Community acquired pneumonia management] third-generation cephalosporins oral,NA,TRUE
+1792051,8,[PP25 Community acquired pneumonia management] second generation cephalosporins injectable,NA,TRUE
+1792053,9,[PP25 Community acquired pneumonia management] second generation cephalosporins oral,NA,TRUE
+1792034,10,[PP25 Community acquired pneumonia management] oral penicillins,NA,TRUE
+1792035,11,[PP25 Community acquired pneumonia management] injectable penicillins,NA,TRUE
+1792033,12,[PP25 Community acquired pneumonia management] oral macrolides,NA,TRUE
+1792032,13,[PP25 Community acquired pneumonia management] injectable tetracyclines,NA,TRUE
+1791905,14,[PP25 Community acquired pneumonia management] oral tetracyclines,NA,TRUE
+1791906,15,[PP25 Community acquired pneumonia management] injectable macrolides,NA,TRUE
+1791904,16,[PP25 Community acquired pneumonia management] systemic trimetoprim,NA,TRUE
+1791908,17,[PP25 Community acquired pneumonia management] oral lincosamides,NA,TRUE
+1791909,18,[PP25 Community acquired pneumonia management] injectable lincosamides,NA,TRUE
+1791907,19,[PP25 Community acquired pneumonia management] carpanenems,NA,TRUE
+1791910,20,[PP25 Community acquired pneumonia management] injectable aminoglycosides,NA,TRUE
+1792031,21,[PP25 Community acquired pneumonia management] oral aminoglycosides,NA,TRUE
+1791903,22,[PP25 Community acquired pneumonia management] systemic floroquinolones,NA,TRUE
