@@ -18,11 +18,11 @@ library(Strategus)
 
 # Time-at-risks (TARs) for the outcomes of interest in your study
 timeAtRisks <- tibble(
-  label = c("On treatment"),
+  label = c("30d"),
   riskWindowStart  = c(1),
   startAnchor = c("cohort start"),
-  riskWindowEnd  = c(0),
-  endAnchor = c("cohort end")
+  riskWindowEnd  = c(30),
+  endAnchor = c("cohort start")
 )
 
 # If you are not restricting your study to a specific time window, 
@@ -32,7 +32,6 @@ studyEndDate <- ''   #present
 # Some of the settings require study dates with hyphens
 studyStartDateWithHyphens <- gsub("(\\d{4})(\\d{2})(\\d{2})", "\\1-\\2-\\3", studyStartDate)
 studyEndDateWithHyphens <- gsub("(\\d{4})(\\d{2})(\\d{2})", "\\1-\\2-\\3", studyEndDate)
-
 
 # Consider these settings for estimation  ----------------------------------------
 useCleanWindowForPriorOutcomeLookback <- FALSE # If FALSE, lookback window is all time prior, i.e., including only first events
@@ -46,7 +45,6 @@ cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
   jsonFolder = "inst/cohorts",
   sqlFolder = "inst/sql/sql_server"
 )
-
 
 if (any(duplicated(cohortDefinitionSet$cohortId))) {
   stop("*** Error: duplicate cohort IDs found ***")
@@ -66,14 +64,12 @@ cohorts <- cohortDefinitionSet %>%
 
 cohorts$type <- ifelse(cohorts$cohortId %in% oList$outcomeCohortId, 'event', 'target')
 
-
 # CohortGeneratorModule --------------------------------------------------------
 cgModuleSettingsCreator <- CohortGeneratorModule$new()
 cohortDefinitionShared <- cgModuleSettingsCreator$createCohortSharedResourceSpecifications(cohortDefinitionSet)
 cohortGeneratorModuleSpecifications <- cgModuleSettingsCreator$createModuleSpecifications(
   generateStats = TRUE
 )
-
 
 # CharacterizationModule Settings ---------------------------------------------
 cModuleSettingsCreator <- CharacterizationModule$new()
@@ -110,15 +106,12 @@ treatmentPatternsModuleSpecifications <- tModuleSettingsCreator$createModuleSpec
     censorType = "minCellCount"
 )
 
-
-
 # Create the analysis specifications ------------------------------------------
 analysisSpecifications <- Strategus::createEmptyAnalysisSpecificiations() |>
   Strategus::addSharedResources(cohortDefinitionShared) |>
   Strategus::addModuleSpecifications(cohortGeneratorModuleSpecifications) |>
   Strategus::addModuleSpecifications(characterizationModuleSpecifications) |>
   Strategus::addModuleSpecifications(treatmentPatternsModuleSpecifications) 
-
 
 ParallelLogger::saveSettingsToJson(
   analysisSpecifications, 
