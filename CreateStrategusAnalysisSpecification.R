@@ -46,6 +46,40 @@ cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(
   sqlFolder = "inst/sql/sql_server"
 )
 
+ # Subset Operators
+subsetOperators <- list ( 
+prepandemic = CohortGenerator::createLimitSubset(
+  name = 'prepandemic',
+  calendarStartDate = '20100101',
+  calendarEndDate = '20191231'
+),
+pandemic = CohortGenerator::createLimitSubset(
+  name = 'pandemic',
+  calendarStartDate = '20200101',
+  calendarEndDate = '20221231'
+),
+postpandemic = CohortGenerator::createLimitSubset(
+  name = 'postpandemic',
+  #priorTime = 0,
+  #followUpTime = 0,
+  #limitTo = "all",
+  calendarStartDate = '20230101',
+  calendarEndDate = NULL
+))
+
+subsetDefs <- list(
+  targetSubset = CohortGenerator::createCohortSubsetDefinition(
+      name = "",
+      definitionId = 1,
+      subsetOperators = subsetOperators
+  )
+)
+
+cohortDefinitionSet <- cohortDefinitionSet |>
+  addCohortSubsetDefinition(subsetDefs, targetCohortIds %in% c(1, 2))
+
+knitr::kable(cohortDefinitionSet[, names(cohortDefinitionSet)[which(!names(cohortDefinitionSet) %in% c("json", "sql"))]])
+
 if (any(duplicated(cohortDefinitionSet$cohortId))) {
   stop("*** Error: duplicate cohort IDs found ***")
 }
@@ -53,7 +87,7 @@ if (any(duplicated(cohortDefinitionSet$cohortId))) {
 # Create some data frames to hold the cohorts we'll use in each analysis ---------------
 # Outcomes: The outcome for this study is cohort_id >= 3 
 oList <- cohortDefinitionSet %>%
-  filter(.data$cohortId > 2) %>%
+  filter(.data$cohortId > 2 & .data$cohortId <= 22) %>%
   mutate(outcomeCohortId = cohortId, outcomeCohortName = cohortName) %>%
   select(outcomeCohortId, outcomeCohortName) %>%
   mutate(cleanWindow = 0)
@@ -100,7 +134,7 @@ treatmentPatternsModuleSpecifications <- tModuleSettingsCreator$createModuleSpec
     combinationWindow = 1,
     minPostCombinationDuration = 1,
     filterTreatments = "All",
-    maxPathLength = 5,
+    maxPathLength = 7,
     ageWindow = 10,
     minCellCount = 5,
     censorType = "minCellCount"
