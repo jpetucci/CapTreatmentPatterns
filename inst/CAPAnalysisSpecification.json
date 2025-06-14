@@ -268,16 +268,6 @@
       "settings": {
         "cohorts": [
           {
-            "cohortId": 1,
-            "cohortName": "[PP25 Community acquired pneumonia management] CAP first event",
-            "type": "target"
-          },
-          {
-            "cohortId": 2,
-            "cohortName": "[PP25 Community acquired pneumonia management] CAP-associated hospitalization first event",
-            "type": "target"
-          },
-          {
             "cohortId": 3,
             "cohortName": "[PP25 Community acquired pneumonia management] oral corticosteroids",
             "type": "event"

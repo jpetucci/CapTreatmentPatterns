@@ -103,6 +103,11 @@ cohorts <- cohortDefinitionSet %>%
 
 cohorts$type <- ifelse(cohorts$cohortId %in% oList$outcomeCohortId, 'event', 'target')
 
+# temp remove 1 and 2 to try to overcome stuck
+
+cohorts = cohorts%>%filter(cohortId>2)
+
+
 # CohortGeneratorModule --------------------------------------------------------
 cgModuleSettingsCreator <- CohortGeneratorModule$new()
 cohortDefinitionShared <- cgModuleSettingsCreator$createCohortSharedResourceSpecifications(cohortDefinitionSet)
